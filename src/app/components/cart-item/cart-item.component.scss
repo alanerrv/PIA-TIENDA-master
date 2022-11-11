@@ -1,0 +1,75 @@
+.cart-item {
+  background: #eaf1ec;
+  padding: 1.5rem 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 5%;
+  position: relative;
+
+  .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1.2rem;
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    transform: translateY(-50%);
+    box-shadow: 10px 10px 10px 0px #c5c5c5;
+  }
+
+  .description {
+    flex: 1;
+    margin-left: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h3 {
+      font-weight: 600;
+      color: #1f1f1f;
+    }
+
+    p {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #115a21;
+      margin: 0.5rem 0;
+
+      sup {
+        font-size: 0.8rem;
+        margin-right: 2px;
+      }
+    }
+  }
+
+  .actions {
+    border: 1px solid #cdd6cd;
+    border-radius: 4rem;
+
+    .counter {
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #bc4545;
+    }
+
+    ion-button {
+      --background: #eb445a;
+      --box-shadow: 0px 2px 10px rgb(13, 119, 10);
+      --padding-start: 0;
+      --padding-end: 0;
+      --padding-top: 0;
+      --padding-bottom: 0;
+
+      height: 35px;
+      width: 35px;
+    }
+  }
+}

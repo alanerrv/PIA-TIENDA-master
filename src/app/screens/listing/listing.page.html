@@ -1,0 +1,20 @@
+<ion-content>
+  <div class="header">
+    <h1>TIENDA</h1>
+    <div class="avatar">
+      <ion-img src="assets/perfil chapo.png"></ion-img>
+    </div>
+  </div>
+
+  <app-searchbar></app-searchbar>
+
+  <div class="categories">
+      <app-category-item *ngFor="let item of categories" [item]="item"></app-category-item>
+  </div>
+
+  <h1 class="list-header">Popular</h1>
+  <div class="juegos-list">
+    <app-juego-card  *ngFor="let juego of juegos" [item]="juego" (clicked)="goToDetailPage(juego.id)"></app-juego-card>
+
+  </div>
+</ion-content>

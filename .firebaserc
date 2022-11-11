@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-ng-1289b": {
+      "hosting": {
+        "app": [
+          "login-ng-1289b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-ng-1289b"
+  }
+}
