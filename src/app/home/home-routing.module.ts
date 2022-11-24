@@ -17,6 +17,10 @@ const routes: Routes = [
         loadChildren: () => import('../screens/cart/cart.module').then( m => m.CartPageModule)
       },
       {
+        path: 'wishlist',
+        loadChildren: () => import('../screens/wishlist/wishlist.module').then( m => m.WishlistPageModule)
+      },
+      {
         path: '',
         redirectTo: 'listing',
         pathMatch: 'full',
