@@ -9,7 +9,7 @@ export class JuegoService {
     return [
       {
         id: 1,
-        title: 'Grand theft auto 5',
+        title: 'GTA V',
         price: 899,
         image: 'assets/juegos/gta5.jpg',
         description:
@@ -29,7 +29,7 @@ export class JuegoService {
         id: 3,
         title: 'Chess Ultra',
         price: 891,
-        image: 'assets/juegos/chess.jpg',
+        image: 'assets/images/chessu.jpg',
         description:
           // eslint-disable-next-line max-len
           'Chess Ultra ofrece un impresionante apartado gráfico, un multijugador en línea sin interrupciones y una IA aprobada por Grandes Maestros que ofrece la experiencia de ajedrez definitiva, para  Xbox One, Switch y PC',
@@ -38,7 +38,7 @@ export class JuegoService {
         id: 4,
         title: 'NERF Legends',
         price: 747,
-        image: 'assets/juegos/nerf.jpg',
+        image: 'assets/images/nerff.jpg',
         description:
           // eslint-disable-next-line max-len
           'NERF Legends te adentra en un mundo futurista y de ciencia ficción donde te enfrentarás con legiones de enemigos robots y a sus maestros definitivos. Para Nintendo Switch, PlayStation 4, Xbox One, Microsoft Windows',
@@ -47,16 +47,16 @@ export class JuegoService {
         id: 5,
         title: 'Outriders',
         price: 539,
-        image: 'assets/juegos/out.gif',
+        image: 'assets/images/outr.jpg',
         description:
           // eslint-disable-next-line max-len
           'Outriders es un videojuego de rol en tercera persona de acción cooperativa solo en línea desarrollado por People Can Fly y publicado por la subsidiaria europea de Square Enix. Para Xbox, PC y Playstation',
       },
       {
         id: 6,
-        title: 'Fall Guys: Ultimate Knockout',
+        title: 'Fall Guys',
         price: 220,
-        image: 'assets/juegos/fall.jpg',
+        image: 'assets/images/falguys.jpg',
         description:
           // eslint-disable-next-line max-len
           'Fall Guys: Ultimate Knockout es un plataformas multijugador masivo tipo party con hasta 60 jugadores online a cargo de Mediatonic y Devolver Digital para PC, PlayStation 4, Xbox One y Switch, en un enfrentamiento todos contra todos que se desarrolla ronda tras ronda entre un caos creciente hasta que solo queda un único ',

@@ -7,15 +7,7 @@ import { FavItem } from '../models/fav-item.model';
   providedIn: 'root'
 })
 export class FavService{
-  private items$ = new BehaviorSubject<FavItem[]>([
-    {
-      id: 1,
-      name: 'Grand theft auto 5',
-      price: 899,
-      image: 'assets/juegos/gta5.jpg',
-      quantity: 1,
-    },
-  ]);
+  private items$ = new BehaviorSubject<FavItem[]>([]);
 
   getFav() {
     return this.items$.asObservable();

@@ -9,7 +9,7 @@ const routes: Routes =[
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'mainscreen',
     pathMatch: 'full'
   },
   {
@@ -31,10 +31,6 @@ const routes: Routes =[
   {
     path: 'detail/:id',
     loadChildren: () => import('./screens/detail/detail.module').then( m => m.DetailPageModule)
-  },
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule),
   },
 ];
 

@@ -6,15 +6,7 @@ import {map} from 'rxjs/operators';
   providedIn: 'root'
 })
 export class CartService{
-  private items$ = new BehaviorSubject<CartItem[]>([
-    {
-      id: 1,
-      name: 'Grand theft auto 5',
-      price: 899,
-      image: 'assets/juegos/gta5.jpg',
-      quantity: 1,
-    },
-  ]);
+  private items$ = new BehaviorSubject<CartItem[]>([]);
 
   getCart() {
     return this.items$.asObservable();
