@@ -25,6 +25,10 @@ const routes: Routes = [
         redirectTo: 'listing',
         pathMatch: 'full',
       },
+      {
+        path: 'ubicacion',
+        loadChildren: () => import('../screens/ubicacion/ubicacion.module').then( m => m.UbicacionPageModule)
+      },
     ],
   },
 ];
